@@ -1,0 +1,20 @@
+pip.conf
+notebooks/gephi_exports/gdelt_person_cooccurrence.gexf
+
+# Secrets / env
+.env
+.env.*
+!.env.sample
+!.env\ sample
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+# Copied from notebooks/config.py for Cloud Function deploy / notebook scaffold
+notebooks/cloud_function/config.py
